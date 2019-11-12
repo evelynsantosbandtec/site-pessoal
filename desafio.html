@@ -15,7 +15,7 @@
 <header>
 <nav class="menu">
 <ul>
-<li>home</a></li>
+<li> <a href="desafio.html"></a>  home</a></li>
 <li> quem somos </li>
 <li>contatos</li>
  <li>login</li>
@@ -26,12 +26,10 @@
 </header>
 <div> </div>
         
-<h2 class="w3-center">Automatic Slideshow</h2>
-
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides" src="Girassol.jpg" style="width:100%">
-  <img class="mySlides" src="girassol2.jpg" style="width:100%">
-  <img class="mySlides" src="img_chicago.jpg" style="width:100%">
+<div class="slide" style="max-width:500px">
+  <img class="imagem " src="Girassol.jpg" >
+  <img class= "imagem" src="girassol2.jpg">
+  <img class="imagem " src="girassol3.jpg" >
 </div>
 
 <script>
@@ -40,7 +38,7 @@ carousel();
 
 function carousel() {
   var i;
-  var x = document.getElementsByClassName("mySlides");
+  var x = document.getElementsByClassName("imagem");
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";  
   }

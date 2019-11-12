@@ -1,0 +1,23 @@
+.dados{
+    padding: 20px;
+    border-radius: 30px;
+    border-style:outset;
+    border-radius: 30px;
+    height: 300px;
+    width: 400px;
+    border-color: black;
+    position: absolute;
+    margin-left: 450px;
+    background-color: darkgoldenrod;
+    
+}
+input{
+    border-radius: 25px;
+    height: 30px;
+    width: 300px;
+    margin-bottom: auto;
+    vertical-align:top;
+}
+    .imagem2{
+      height: 200px;
+    }
