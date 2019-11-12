@@ -1,7 +1,7 @@
 body{
     margin: 0%;
     
-}s
+}
 .cadastro {
     border-style:outset;
     border-radius: 40px;
@@ -28,6 +28,9 @@ body{
     position: fixed;
     top : 0;
     width: 100%;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+     font-size: 30px;
 }
 header{
     background-color: darkgoldenrod;
@@ -41,7 +44,7 @@ a{
     color:black
 }
 ul{
-    text-decoration: none;
+    
     list-style-type: none;
     display: flex;
     justify-content: space-around;

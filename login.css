@@ -40,23 +40,27 @@ input{
         top : 0;
         width: 100%;
         font-family: 'Courier New', Courier, monospace;
-        font-size: 40px;
-        
+        font-size: 30px;
+
     }
     header{
         background-color: darkgoldenrod;
         height: 60px;
         position: fixed;
         top: 0;
-        width: 100vw;
-        
+        width: 100vw;  
+    }
+    a{
+        text-decoration: none;
+        color:black
     }
    
     li{
         height: 30px;
         
     }
-    ul{
+    ul
+    {
         text-decoration: none;
         list-style-type: none;
         display: flex;
