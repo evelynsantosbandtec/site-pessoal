@@ -1,0 +1,44 @@
+  body {  margin:0%;
+
+  }
+  a{
+    text-decoration: none;
+    color:black
+}
+ .fonte{
+     text-shadow: 200px
+ }
+
+ .imagem {
+     height: 300px;
+     width:  200px;
+ }
+ 
+ .menu{
+     height: 60px;
+     position: fixed;
+     top : 0;
+     width: 100%;
+ }
+ header{
+     background-color: darkgoldenrod;
+     height: 60px;
+     position: fixed;
+     top: 0;
+     width: 100%;
+ }
+ ul{
+     text-decoration: none;
+     list-style-type: none;
+     display: flex;
+     justify-content: space-around;
+     margin-top: 0%;
+     line-height: 50px;
+ }
+ .bem_vindo{
+     
+     position: absolute
+ }
+
+ 
+ 

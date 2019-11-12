@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tela inicial</title>
+
+    <link rel="stylesheet" href="desafio.css">
+</head>
+<style>
+    .mySlides {display:none;}
+    </style>
+<body >
+<header>
+<nav class="menu">
+<ul>
+<li>home</a></li>
+<li> quem somos </li>
+<li>contatos</li>
+ <li>login</li>
+<li>noticias</li>
+<li><a href="cadastro.html">cadastro</a></li>
+ </ul>
+</nav>
+</header>
+<div> </div>
+        
+<h2 class="w3-center">Automatic Slideshow</h2>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="Girassol.jpg" style="width:100%">
+  <img class="mySlides" src="girassol2.jpg" style="width:100%">
+  <img class="mySlides" src="img_chicago.jpg" style="width:100%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+        
+    
+        
+    
+</body>
+</html>
