@@ -1,3 +1,9 @@
+body {  
+    margin: 0;
+    padding: 0;
+    width: 100VW;
+}
+
 .dados{
     padding: 20px;
     border-radius: 30px;
@@ -9,7 +15,9 @@
     position: absolute;
     margin-left: 450px;
     background-color: darkgoldenrod;
-    
+    top: 200px;
+    font-size: 20px;
+
 }
 input{
     border-radius: 25px;
@@ -17,7 +25,42 @@ input{
     width: 300px;
     margin-bottom: auto;
     vertical-align:top;
+    font-size: 20px;
 }
-    .imagem2{
-      height: 200px;
+    body{
+        background-image: url(girassol5.jpg);
+        height: 800px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+.menu{
+   
+        height: 60px;
+        position: fixed;
+        top : 0;
+        width: 100%;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 40px;
+        
+    }
+    header{
+        background-color: darkgoldenrod;
+        height: 60px;
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        
+    }
+   
+    li{
+        height: 30px;
+        
+    }
+    ul{
+        text-decoration: none;
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 0%;
+        line-height: 50px;
     }
