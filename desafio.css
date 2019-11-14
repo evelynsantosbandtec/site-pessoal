@@ -29,7 +29,7 @@ html{
  
  .menu{
      height: 60px;
-     position: fixed;
+     position: absolute;
      top : 0;
      width: 100%;
      font-family: 'Courier New', Courier, monospace;
@@ -39,7 +39,7 @@ html{
  header{
      background-color: darkgoldenrod;
      height: 60px;
-     position: fixed;
+     position: absolute;
      top: 0;
      width: 100vw;
  }
@@ -73,8 +73,18 @@ html{
  
  .dica2{
     left: 600px;
-    position: fixed;
-    font-family: Arial, Helvetica, sans-serif
+    position: absolute;                                                                                        
+    font-family: Arial, Helvetica, sans-serif;
+    
+ }
+ .h1dica{
+    color:black; 
+ }
+ .primeira_imagem{
+     float: left;
+     position: absolute;
+     margin-left: 600px;
+     margin-top:  150px;  
  }
  
 
