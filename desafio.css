@@ -2,6 +2,7 @@
       margin: 0;
       padding: 0;
       width: 100VW;
+      background-image: linear-gradient(rgb(245, 245, 241),	#FFD700,#FBEC5D);
 }
 
 html{
@@ -87,6 +88,4 @@ html{
      margin-top:  150px;  
  }
  
-
-
  
