@@ -7,16 +7,16 @@
     <title>tela inicial</title>
 
     <link rel="stylesheet" href="desafio.css">
+    <link rel="stylesheet" href="cuidar.html">
+    
 </head>
-<style>
-    .mySlides {display:none;}
-    </style>
+
 <body >
 <header>
 <nav class="menu">
 <ul>
 <li><a href="./desafio.html"><b>Home</b></a></a></li>
-<li> Quem somos </li>
+<li> <a href="#nome"><b>Sobre</b></a> </li>
 <li><a href="logindesafio.html"><b>Login</b></a></li>
 <li><a href="cadastro.html"><b>Cadastro</b></a></li>
  </ul>
@@ -25,28 +25,30 @@
 
         
 <div class="slide" style="width:100%">
-  <img class="imagem " src="Girassol.jpg" >
-  <img class= "imagem" src="girassol2.jpg">
-  <img class="imagem " src="girassol5.jpg" >
+  <img class="imagem " src="girassol2.jpg" >
+
 </div>
-<button style="margin-left: 47vw; margin-top: 120px" id="soluçao" onclick="funçao()">saiba mais </button>
+<div class="nome">
+  <p>
+<b id="nome">Bem Vindo á Sunflower</b>
+</p>
+<img class="logo" src="girassol2logo.png" >
+</div>
+<a href="cuidar.html"><button class="button"id="soluçao" onclick="funçao()"><b>Saiba mais</b> </button></a>
 
-<script>
-var myIndex = 0;
-carousel();
+<div class="somos">
+<p class="somos1">
+ <b>Quem somos </b>
+</p>
+<p>
+     Somos a <b>Empresa Sunflower</b>,atentemos floreculturas com os melhores girassoes <br>
+  de otima qualidade<br>
+</p>
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("imagem");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
+
+</div>
+
+
 
 
     

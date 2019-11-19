@@ -5,17 +5,17 @@ body{
 .cadastro {
     border-style:outset;
     border-radius: 40px;
-    height: 650px;
+    height: 575px;
     width: 400px;
     border-color: black;
     margin-top: -180px;
     position: absolute;
-    margin-left: 450px;
+    margin-left: 150px;
     background-color: darkgoldenrod;
     
  }
  .cadastro ::placeholder{
-     padding: 20px;
+     padding: 10px;
 
  }
  
@@ -58,8 +58,25 @@ input {
     width: 300px;
     margin-bottom: auto;
     vertical-align:top;
+    outline: none;
 }
    button {
        border-radius: 30px;
+       outline: none;
+       height: 30px;
 
  }
+.fase2{
+    border-style:outset;
+    border-radius: 40px;
+    height: 575px;
+    width: 400px;
+    border-color: black;
+    margin-top: -180px;
+    position: absolute;
+    margin-left: 800px;
+    background-color: darkgoldenrod;   
+}
+.fase2 ::placeholder{
+    padding: 10px;
+}

@@ -26,14 +26,15 @@ input{
     margin-bottom: auto;
     vertical-align:top;
     font-size: 20px;
-}
+    outline: none;
+   }
     body{
         background-image: url(girassol5.jpg);
         height: 800px;
         background-repeat: no-repeat;
         background-size: 100%;
     }
-.menu{
+    .menu{
    
         height: 60px;
         position: fixed;
@@ -41,14 +42,15 @@ input{
         width: 100%;
         font-family: 'Courier New', Courier, monospace;
         font-size: 30px;
-
+       
     }
     header{
         background-color: darkgoldenrod;
         height: 60px;
         position: fixed;
         top: 0;
-        width: 100vw;  
+        width: 100vw; 
+        
     }
     a{
         text-decoration: none;
@@ -68,3 +70,36 @@ input{
         margin-top: 0%;
         line-height: 50px;
     }
+    .dados1{
+        padding:0 20px 20px 20px;
+    }
+        .esqueceuSenha{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+    margin-top: 0.5vh
+     }
+
+      label[for=lembrar]{
+            font-size: 20px;
+               color:rgba(35, 19, 77, 0.555);
+            display:inline-block;
+            padding-bottom:0;
+            padding-top:-1vh;
+          }
+        input[type=checkbox] {
+            display:inline-block;
+            vertical-align:top;
+        
+       }
+       .entrar {
+        padding:5px 10px;
+        border-radius: 20px;
+        font-size: 15px;
+        outline: none;
+       }
+       .dados ::placeholder{
+        padding: 10px;
+       }
