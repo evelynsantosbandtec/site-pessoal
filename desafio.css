@@ -124,6 +124,17 @@ html{
         font-size: 20px;
         
     }
-
- 
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 170px;
+    margin-top: 200px;
+}
+.footer2{
+    color: blanchedalmond;
+}
+.agradecimentos{
+    font-size: 30px;
+    margin-left: 450px;
+}
  
