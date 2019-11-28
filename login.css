@@ -42,6 +42,7 @@ input{
         width: 100%;
         font-family: 'Courier New', Courier, monospace;
         font-size: 30px;
+      
        
     }
     header{
@@ -50,8 +51,15 @@ input{
         position: fixed;
         top: 0;
         width: 100vw; 
-        
+        z-index: 1;
+       border: 1px black solid ;
+              
     }
+    header nav ul li a:hover{
+        color: rgb(251, 253, 107);
+        transition: .2s;
+        border-bottom: 3px solid rgb(224, 235, 78);
+        } 
     a{
         text-decoration: none;
         color:black

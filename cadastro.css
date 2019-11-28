@@ -1,5 +1,13 @@
 body{
     margin: 0%;
+}
+
+body{
+ 
+    background-image: url(girassol11.jpg);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
     
 }
 .cadastro {
@@ -13,17 +21,16 @@ body{
     margin-left: 450px;
     background-color: darkgoldenrod;
     
+    
  }
  .cadastro ::placeholder{
      padding: 10px;
 
  }
  
- .imagem2 {
-    height: 450px;
-    width:  240vh;
+
     
-}
+
  .menu2{
     height: 60px;
     position: fixed;
@@ -32,6 +39,7 @@ body{
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
      font-size: 30px;
+     
 }
 header{
     background-color: darkgoldenrod;
@@ -39,7 +47,14 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
+    border: 1px black solid;
 }
+header nav ul li a:hover{
+    color: rgb(251, 253, 107);
+    transition: .2s;
+    border-bottom: 3px solid rgb(224, 235, 78);
+    } 
 a{
     text-decoration: none;
     color:black
